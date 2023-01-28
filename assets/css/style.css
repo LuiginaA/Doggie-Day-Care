@@ -7,7 +7,8 @@ font-family: 'Libre Baskerville', serif;
 
 font-family: 'Proza Libre', sans-serif;
 
-/* ---------------------------------Special paddings/margins/text */
+
+/* ---------------------------------Special paddings/margins/text
 
 h1,
 h2,
@@ -27,68 +28,130 @@ padding: 0;
 }  */
 
 
-
-
-/* .container-fluid {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-left: auto;
-    margin-right: auto;
-} */
+/* .header-container {
+ 
+  
+  }     */
+  
 /* ---------------------------------Colours */
 
-.bg-color-nav {
-    background-color:#B2BA97;
-}
+/* .bg-color-header {
+  background-color: red;
+} */
 
 .bg-color-footer {
     background-color:#B2BA97;
+} 
+
+
+/* ---------------------------------TopNav */
+
+.title h5 {
+color: #404518;
+font-family:'Libre Baskerville', serif;
+
 }
 
+.phone p {
+  color: #404518;
+  font-size: 14px;
+  font-family:'Libre Baskerville', serif;
+  text-align: center;
+  padding-top: 10px;
+ 
+  
+} 
 
 /* ---------------------------------Navbar */
 
-.main-logo {
-    background: url("../images/ddclogo.png");
-    background-size: cover;
-    background-repeat: no-repeat center center;
-    height: 300px;
-    width: 300px;
+.container-navbar {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+
+  
+
+}
+
+.navbar {
+  background-color: #AACCCC; 
+  overflow: hidden;
+  padding: 3px;
+
+
+}  
+
+.bg-img {
+  background-color: #AACCCC; 
+  background-image: url("../images/dogpark.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  width: 100%;
+  padding-top: 500px 500px;
+  background-position: center;
+
 
 }
 
 .navbar ul {
-    gap: 50px;
-    padding-left: 180px;
+  display: flex;
+  gap: 30px; 
+  padding-left: 200px; 
 
-}
+} 
 
-.nav-item  a {
-    color: #404518;
+.nav-item a { 
+    color: azure; 
     text-decoration: none;
-    padding: 0;
-    margin: 0;
+    margin-top: 0;
     text-align: center;
     font-size: 20px;
     font-family: 'Libre Baskerville', serif;
 
-}
+}  
 
-.nav-item  i {
-    color: #E9CECE;
-    display: flex;
-    justify-content: center;
+.nav-link a { 
+  color: azure; 
+  text-decoration: none;
+  margin-top: 0;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Libre Baskerville', serif;
 
-}
+} 
+/* 
+.navbar-collapse {
+  flex-direction: column;
+  min-height: 80vh;  
+  padding-left: 5px;
+  padding-top: 25px;
+  color:azure;
 
-#navbar-toggle {
+} */
+
+.navbar-toggle-icon span {
     font-size: 18px;
     font-family: 'Libre Baskerville', serif;
+ 
+ 
+} 
+
+.navbar-nav {
+  align-items: flex-start;
+ 
 
 }
 
+.navbar a:hover {
+  background-color: #b4aaa1;
+  color: azure;
+
+}
+
+
 /* --------------------------------- Footer */
+
 
 .footer-main {
   color: #404518;
@@ -256,10 +319,99 @@ padding: 0;
 }
 
 
+/* ---------------------------------  Media Queries*/
+
+
+/* ---------- Tablet */
+@media screen and (max-width: 768px) {
+  .footer-main-logo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer-main,
+  .footer-author{
+ width: 200%;
+  } 
   
-/* @media screen and (min-width: 576px) {
-    footer, footer-main, {
-      font-size: 28px;
-    } 
+}   
+
+/* ---------- Mobile */
+
+@media screen and (max-width: 480px) {
+  .footer-main-logo {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .footer-main {
+ width: 100%;
+ 
+  } 
+  
+}   
+
+@media screen and (max-width: 480px) {
+  .footer-author {
+ width: 100%;
+ 
+  } 
+  
+}   
+
+@media screen and (max-width: 480px) {
+  .footer-main-nav p {
+ width: 100%;
+ 
+  } 
+  
+}   
+@media screen and (max-width: 480px) {
+  .footer-main-nav ul li a {
+ width: 100%;
+ 
+  } 
+  
+}   
+
+/* 
+@media screen and (max-width: 1393px) {
+  .footer-main-logo {
+      width: 65%;
+      height: 1200px;
+      margin: 0 auto;
+
+  } */
+  
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {
+  footer {
     
-  }     */
+    background-color: blue;
+  }
+  } */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+  footer-main {
+    background-color: yellow;
+  }
+   
+} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */
+
+
+
+  
