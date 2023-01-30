@@ -30,19 +30,6 @@ padding: 0;
 
 /* .header-container {
  
-  
-  }     */
-  
-/* ---------------------------------Colours */
-
-/* .bg-color-header {
-  background-color: red;
-} */
-
-.bg-color-footer {
-    background-color:#B2BA97;
-} 
-
 
 /* ---------------------------------TopNav */
 
@@ -59,8 +46,8 @@ font-family:'Libre Baskerville', serif;
   text-align: center;
   padding-top: 10px;
  
-  
 } 
+
 
 /* ---------------------------------Navbar */
 
@@ -69,15 +56,12 @@ font-family:'Libre Baskerville', serif;
   margin: 20px;
   width: auto;
 
-  
-
 }
 
 .navbar {
   background-color: #AACCCC; 
   overflow: hidden;
   padding: 3px;
-
 
 }  
 
@@ -86,11 +70,11 @@ font-family:'Libre Baskerville', serif;
   background-image: url("../images/dogpark.jpg"); 
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 80vh;
+  min-height: 80vh; 
+  height: 100%;
   width: 100%;
   padding-top: 500px 500px;
   background-position: center;
-
 
 }
 
@@ -120,27 +104,16 @@ font-family:'Libre Baskerville', serif;
   font-family: 'Libre Baskerville', serif;
 
 } 
-/* 
-.navbar-collapse {
-  flex-direction: column;
-  min-height: 80vh;  
-  padding-left: 5px;
-  padding-top: 25px;
-  color:azure;
-
-} */
-
+ 
 .navbar-toggle-icon span {
     font-size: 18px;
     font-family: 'Libre Baskerville', serif;
- 
  
 } 
 
 .navbar-nav {
   align-items: flex-start;
  
-
 }
 
 .navbar a:hover {
@@ -151,120 +124,51 @@ font-family:'Libre Baskerville', serif;
 
 
 /* --------------------------------- Footer */
-
-
+ 
 .footer-main {
-  color: #404518;
-  width: 100%;
-  height: 200px;
-  line-height: 15px;
+  background-color: #AACCCC; 
   display: flex;
-  justify-content: space-evenly;
-  
-} 
+  flex-wrap: wrap;
+  width: 100%;
+  max-height: 80vh;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+  list-style-type: none;
 
-.footer-main-logo {
-  background: url("../images/ddclogo.png");
-  background-size: cover;
-  background-repeat: no-repeat center center;
-  height: 200px;
-  width: 200px;
-   
-}
+}   
 
-.footer-main-nav {
+.footer-item a{
   color: #404518;
   height: 100%;
-  line-height: 15px; 
+  line-height: 1.5px; 
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: 'Libre Baskerville', serif;
 
-}
+} 
 
-.footer-main-nav p {
+.footer-main ol {
   color: #404518;
   text-decoration: none;
-  padding: 20px;
-  margin: 0;
-  text-align: left;
-  font-size: 12px;
-  font-family: 'Libre Baskerville', serif;
-
-}
-
-.footer-main-nav ul li {
-  list-style-type: none;
-
-}
-
-.footer-main-nav ul li a {
-  text-align: left;
-  font-size: 10px;
-  font-family: 'Libre Baskerville', serif;
-  text-decoration: none;
-  
-}
-
-.footer-main-nav li a {
-  color:#404518;
-  text-decoration: none;
-  list-style-type: none;
   padding: 0;
   margin: 0;
   text-align: left;
   font-size: 10px;
   font-family: 'Proza Libre', sans-serif;
-  
-} 
 
-.footer-main p {
-  color: #404518;
-  text-decoration: none;
-  padding: 20px;
-  margin: 0;
-  text-align: left;
-  font-size: 12px;
-  font-family: 'Libre Baskerville', serif;
-
-} 
-
-.footer-main ul li  {
-  color:#404518;
-  text-decoration: none;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  text-align: left;
-  font-size: 10px;
-  font-family: 'Proza Libre', sans-serif;
-  
 }  
 
-.footer-main-address {
-  height: 100%;
-
-}
-
-.footer-main-contact {
-  height: 100%;
-  float: left;
- 
-}
-
-
-.footer-main-email {
-  height: 100%;
-
-}
-
-.footer-main-hours {
-  height: 100%;
-
-}
 
 /* --------------------------------- Footer Author & Social Media*/
 
 .footer-author {
+  background-color: #AACCCC; 
   color: #404518;
-  padding-top: 5px;
+  padding-top: 0px;
   width: 100%;
   height: 30px;
   display: flex;
@@ -304,7 +208,7 @@ font-family:'Libre Baskerville', serif;
 
 .copyright p {
   text-align: left;
-  font-size: 10px;
+  font-size: 12px;
   font-family: 'Libre Baskerville', serif;
   margin-bottom: 0;
 
@@ -312,7 +216,7 @@ font-family:'Libre Baskerville', serif;
   
 .made-by {
   text-align: left;
-  font-size: 10px;
+  font-size: 12px;
   font-family: 'Libre Baskerville', serif;
   margin-bottom: 0;
 
@@ -321,11 +225,11 @@ font-family:'Libre Baskerville', serif;
 
 /* ---------------------------------  Media Queries*/
 
-
+/* 
 /* ---------- Tablet */
-@media screen and (max-width: 768px) {
-  .footer-main-logo {
-    display: none;
+/* @media screen and (max-width: 768px) {
+  .footer-main {
+    display: 100%;
   }
 }
 
@@ -335,33 +239,33 @@ font-family:'Libre Baskerville', serif;
  width: 200%;
   } 
   
-}   
+}    */
 
 /* ---------- Mobile */
 
+/* 
 @media screen and (max-width: 480px) {
-  .footer-main-logo {
-    display: none;
+  .footer-main {
+    display: 100%;
   }
 }
 
 
 @media screen and (max-width: 480px) {
-  .footer-main {
- width: 100%;
- 
-  } 
-  
-}   
+  .footer-main-logo {
+    display: none;
+  }
+} */
 
+/* 
 @media screen and (max-width: 480px) {
   .footer-author {
  width: 100%;
  
   } 
   
-}   
-
+}    */
+/* 
 @media screen and (max-width: 480px) {
   .footer-main-nav p {
  width: 100%;
@@ -375,7 +279,7 @@ font-family:'Libre Baskerville', serif;
  
   } 
   
-}   
+}    */
 
 /* 
 @media screen and (max-width: 1393px) {
