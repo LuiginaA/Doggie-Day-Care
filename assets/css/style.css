@@ -28,10 +28,14 @@ padding: 0;
 }  */
 
 
-/* .header-container {
- 
 
 /* ---------------------------------TopNav */
+
+
+.navbar {
+  background-color: #AACCCC; 
+
+}
 
 .title h5 {
 color: #404518;
@@ -52,28 +56,29 @@ font-family:'Libre Baskerville', serif;
 /* ---------------------------------Navbar */
 
 .container-navbar {
-  position: absolute;
   margin: 20px;
   width: auto;
 
 }
 
 .navbar {
-  background-color: #AACCCC; 
+  background-color: #AACCCC;  
   overflow: hidden;
-  padding: 3px;
+  padding: 0;
+  margin: 0;
 
 }  
 
 .bg-img {
-  background-color: #AACCCC; 
+  background-color: #AACCCC;  
   background-image: url("../images/dogpark.jpg"); 
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 80vh; 
   height: 100%;
   width: 100%;
-  padding-top: 500px 500px;
+  padding-top: 500px;
+  margin: 0;
   background-position: center;
 
 }
@@ -86,7 +91,7 @@ font-family:'Libre Baskerville', serif;
 } 
 
 .nav-item a { 
-    color: azure; 
+    color: #1D1806; 
     text-decoration: none;
     margin-top: 0;
     text-align: center;
@@ -94,6 +99,11 @@ font-family:'Libre Baskerville', serif;
     font-family: 'Libre Baskerville', serif;
 
 }  
+
+.nav-item-active {
+  color: azure;
+
+}
 
 .nav-link a { 
   color: azure; 
@@ -221,6 +231,219 @@ font-family:'Libre Baskerville', serif;
   margin-bottom: 0;
 
 }
+
+/* ---------------------------------About Us */
+
+.container-main-about-us {
+  display: flex;
+  flex-wrap: nowrap;justify-content: center;
+  margin: 0px;
+  padding: 0;
+  width: 100%;
+
+} 
+
+.main-about-us {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #AACCCC; 
+  align-items: center;  
+ 
+}   
+
+.container-about-us {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column; 
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px; 
+  min-height: 80vh;
+  background-color:#E2D9E2;
+
+}
+
+.team {
+  display: flex; 
+  flex-wrap: nowrap;
+  flex-direction: column; 
+  align-items: center;  
+  margin: 0; 
+  padding: 0;
+
+}
+
+.intro h4 {
+  color: #733236;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 12;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 2px;
+
+}  
+
+.team h5,
+.about-us h5,
+.premises h5 {
+  color: #733236;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 13;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 10px;
+  
+}
+
+.about-us p,
+.premises p {
+  color: #733236;
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  padding-left: 10px;
+  padding-right: 10px; 
+
+}
+
+.team-img {
+  background-image: url("../images/staff.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat center center;
+  min-height: 60vh; 
+  height: 300px;
+  width: 300px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  margin: 20px;
+  border-radius: 40px;
+
+}
+
+.about-us {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column; 
+
+}
+
+.premises {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;  
+
+}
+
+.premises-img {
+  background-image: url("../images/peeping.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat center center;
+  min-height: 60vh;  
+  height: 250px;
+  width: 250px;
+  padding-top: 10px;
+  border-radius: 30px;
+
+}
+
+/* ---------------------------------FAQ Section */
+
+.container-faq {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+.container-faq-title h4 {
+  background-color: #3A2E27;
+  color: #FFDADA; 
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;    
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 2px;
+  padding-top: 15px;
+  padding-bottom: 0;
+  margin-bottom: 0;  
+
+}
+
+.container-faq-title h5 { 
+  background-color: #3A2E27;
+  color: #FFDADA;
+  font-family: 'Proza Libre', sans-serif;
+  font-weight: 200;
+  text-align: center; 
+  padding-bottom: 0;
+  margin-bottom: 0;
+  line-height: 2.5rem;
+
+}
+
+.img2 {
+  background-image: url("../images/belo1.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat center center; 
+  height: 235px; 
+  width: 235px;
+  padding: 0;
+  margin-right: 10px; 
+  float: left;
+  border-bottom-right-radius: 50%;
+ 
+}
+
+.img3 {
+  background-image: url("../images/khalisi.jpg"); 
+  background-color:#3A2E27;
+  background-size: cover;
+  background-repeat: no-repeat center center;
+  height: 235px; 
+  width: 235px;
+  margin-left: 5px;
+  margin-bottom: 0px;
+  padding-bottom: 0;
+  float: right;
+  border-top-left-radius: 50%;
+
+}
+
+.container-faq ul {
+  background-color: #3A2E27;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.container-faq ul li {
+  color: #FFDADA ;
+  font-family:'Libre Baskerville', serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: left;
+  list-style-type: none;
+  line-height: 1.5rem;
+  margin-left: 15px;
+
+}
+
+.container-faq ol {
+  color: #FFDADA;
+  font-family:'Libre Baskerville', serif;
+  font-size: 12px;
+  text-align: left;
+  list-style-type: none;
+  line-height: 1.5rem;
+  margin-left: 15px;
+
+}
+
+
 
 
 /* ---------------------------------  Media Queries*/
