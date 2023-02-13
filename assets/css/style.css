@@ -19,15 +19,127 @@ h6 {
 margin: 0;
 padding: 0;
 
+
+/* ---------------------------------Contact Form */
+
+.container-form {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+} 
+
+.container-form {
+  background-color: #AACCCC;
+  display: flex; 
+  flex-wrap: nowrap;
+ 
+} 
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: chartreuse;
+  padding-top: 5px;
+  width: 100%;
+
+} 
+
+.form-heading h4 {
+  color: red;
+  font-family:'Libre Baskerville', serif;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+ 
+}   
+
+.centre-form {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 15px;
+  width: 100%; 
+  
 }
-DDFFBB
-#112A46
 
-#C8E7E2
-/* .inline-block {
-    display: block;
+.control-form {
+  margin-left: 35px; 
+  width: 100%; 
 
-}  */
+}
+
+.submit-form {
+  color: plum; 
+  font-size: 18px;
+  font-family:'Libre Baskerville', serif;
+  height: 100%;
+  width: 95%;
+  margin-left: 2%;
+  margin-top: 50px;
+
+} 
+
+/* --------------------------------Submit-button */
+
+button[type="submit"] {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #E0E4EF;
+  color: #404518;
+  font-family:'Libre Baskerville', serif;
+  font-size: 14px;
+  font-weight: 400;
+
+}
+
+.contact-img-container {
+  display: flex;
+  flex-wrap: nowrap;
+
+}
+
+.end-image {
+  background-image: url("../images/peeping.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 325px;
+  width: 320px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 12px;
+  padding-top: 8px;
+  padding-left: 5px;
+  border-radius: 30%;
+
+}
+
+/* --------------------------------Submit-Form Media Queries */
+
+@media(min-width: 992px) {
+  .centre-form {
+      padding-top: 30px;
+      min-height: 240px;
+      margin: 0 auto;
+      max-width: 70%;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -78,7 +190,7 @@ font-family:'Libre Baskerville', serif;
   background-repeat: no-repeat;
   min-height: 60vh;
   height: 100%;
-  width: 100%; 
+  width: 100%;
   padding-top: 500px;
   margin: 0;
   background-position: center;
@@ -256,7 +368,7 @@ font-family:'Libre Baskerville', serif;
 
 .container-info-one {
   background-color: #F9FFEB;
-  margin: 15px; 
+  margin: 15px;
   padding-top: 20px;
   padding-bottom: 10px;
   width: 100%;
@@ -270,7 +382,7 @@ font-family:'Libre Baskerville', serif;
   font-weight: 600;
   text-align: center;
 
-} 
+}
 
 .info-one {
   background-color: #F9FFEB;
@@ -282,31 +394,31 @@ font-family:'Libre Baskerville', serif;
   padding-bottom: 10px;
   min-height: 80vh;
 
-} 
+}
 
 .info-two {
   background-color: #F9FFEB;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
   padding-top: 20px;
   padding-bottom: 10px;
   min-height: 80vh;
 
-} 
+}
 
 .info-three {
   background-color: #F9FFEB;
   display: flex;
   flex-wrap: nowrap;
-  flex-direction: column; 
+  flex-direction: column;
   align-items: center;
   padding-top: 20px;
   padding-bottom: 20px;
   min-height: 80vh;
 
-} 
+}
 
 .info p {
   color: #183E0C;
@@ -316,7 +428,7 @@ font-family:'Libre Baskerville', serif;
   padding-left: 10px;
   padding-right: 10px;
 
-} 
+}
 
 .info-img-botone {
   background-image: url("../images/pretty.jpg");
@@ -328,7 +440,7 @@ font-family:'Libre Baskerville', serif;
   margin-bottom: 10px;
   border-radius: 30%;
 
-} 
+}
 
 .info-img-top {
   background-image: url("../images/curious.jpg");
@@ -339,7 +451,7 @@ font-family:'Libre Baskerville', serif;
   margin-bottom: 10px;
   border-radius: 30%;
 
-} 
+}
 
 .img-end-bottom {
   background-image: url("../images/sleepy.jpg");
@@ -351,7 +463,7 @@ font-family:'Libre Baskerville', serif;
   padding-top: 8px;
   border-radius: 30%;
 
-} 
+}
 
 /* ---------------------------------About Us */
 
@@ -395,7 +507,7 @@ font-family:'Libre Baskerville', serif;
 .intro h4 {
   color: #733236;
   font-family: 'Libre Baskerville', serif;
-  font-size: 12;
+  font-size: 14;
   font-weight: 600;
   text-align: center;
   letter-spacing: 2px;
@@ -418,8 +530,8 @@ font-family:'Libre Baskerville', serif;
 .premises p {
   color: #733236;
   font-family: 'Proza Libre', sans-serif;
-  font-size: 12px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 400;
   padding-left: 10px;
   padding-right: 10px;
 
@@ -428,11 +540,11 @@ font-family:'Libre Baskerville', serif;
 .team-img {
   background-image: url("../images/staff.jpg");
   background-size: cover;
-  height: 350px;
-  width: 300px;
+  height: 375px;
+  width: 350px;
   margin-top: 45px;
   margin-bottom: 10px;
-  border-radius: 30%;
+  border-radius: 20%;
 
 }
 
@@ -452,27 +564,39 @@ font-family:'Libre Baskerville', serif;
 }
 
 .premises-img {
-  background-image: url("../images/peeping.jpg");
+  background-image: url("../images/train.jpg");
   background-size: cover;
-  height: 300px;
-  width: 300px;
+  background-position: center;
+  height: 375px;
+  width: 350px;
   margin-top: 15px;
   margin-bottom: 10px;
-  border-radius: 30%;
+  border-radius: 20%;
 
 }
 
 /* ---------------------------------Services */
 
 .container-services {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
+  background-color: #AACCCC;
   margin: 0px;
   padding: 0px;
   width: 100%;
 
 }
+
+.container-services {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+  min-height: 80vh;
+
+}
+
 
 .container-services-main {
   display: flex;
@@ -480,16 +604,6 @@ font-family:'Libre Baskerville', serif;
   background-color: #DAD7CD;
   align-items: center;
   justify-content: space-around;
-
-}
-
-.container-services {
-  padding-top: 15px;
-  padding-bottom: 0px;
-  padding-left: 15px;
-  padding-right: 15px;
-  min-height: 80vh;
-  background-color:#AACCCC;
 
 }
 
@@ -506,7 +620,8 @@ font-family:'Libre Baskerville', serif;
 .services-main h4 {
   color: #404518;
   font-family: 'Libre Baskerville', serif;
-  font-weight: 600;
+  font-size: 2rem;
+  font-weight: 800;
   align-items: center;
   letter-spacing: 2px;
 
@@ -515,7 +630,7 @@ font-family:'Libre Baskerville', serif;
 .services h5 {
   color: #404518;
   font-family: 'Libre Baskerville', serif;
-  font-size: 14px;
+  font-size: 1.5rem;
   font-weight: 600;
   text-align: center;
   padding-top: 10px;
@@ -526,7 +641,7 @@ font-family:'Libre Baskerville', serif;
 .services ul li {
   color: #404518;
   font-family: 'Proza Libre', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
   padding-left: 10px;
   padding-right: 10px;
@@ -538,9 +653,9 @@ font-family:'Libre Baskerville', serif;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 60vh;
-  margin-top: 25px;
-  border-radius: 50px;
+  min-height: 70vh;
+  margin-top: 15px;
+  border-radius: 20%;
 
 }
 
@@ -549,9 +664,9 @@ font-family:'Libre Baskerville', serif;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 60vh;
-  margin-top: 25px;
-  border-radius: 50px;
+  min-height: 70vh;
+  margin-top: 120px;
+  border-radius: 20%;
 
 }
 
@@ -560,33 +675,26 @@ font-family:'Libre Baskerville', serif;
 .services-img-three {
   background-image: url("../images/gnocchiemily.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
-  min-height: 60vh;
-  height: 330px;
-  width: 330px; 
+  height: 350px;
+  width: 350px;
   margin-top: 25px;
-  border-radius: 50px;
+  border-radius: 30%;
 
 }
 
 .services-img-four {
   background-image: url("../images/calipso.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
-  min-height: 60vh;
-  height: 330px;
-  width: 330px; 
+  height: 350px;
+  width: 350px;
   margin-top: 25px;
-  border-radius: 50px;
+  border-radius: 30%;
 
 }
 
 .container-services-two {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
   margin: 0px;
   padding: 0px;
   width: 100%;
@@ -605,7 +713,6 @@ font-family:'Libre Baskerville', serif;
   padding-bottom: 0px;
   padding-left: 15px;
   padding-right: 15px;
-  min-height: 80vh;
   background-color:#AACCCC;
 
 }
@@ -622,7 +729,7 @@ font-family:'Libre Baskerville', serif;
 .services-two h5 {
   color: #404518;
   font-family: 'Libre Baskerville', serif;
-  font-size: 14px;
+  font-size: 1.5rem;
   font-weight: 600;
   text-align: center;
   padding-top: 10px;
@@ -643,7 +750,7 @@ font-family:'Libre Baskerville', serif;
 /* ---------------------------------Services End */
 
 .container-services-end {
-  margin: 0; 
+  margin: 0;
   padding: 0;
   width: 100%;
 
@@ -651,17 +758,17 @@ font-family:'Libre Baskerville', serif;
 
 .container-services-end {
   background-color:#DAD7CD;
-  padding-top: 15px; 
-  padding-bottom: 10px; 
-  padding-left: 10px; 
-  padding-right: 10px;  
- 
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+
 }
 
 .content-services-end {
-  background-color: #AACCCC; 
-  padding-right: 15px; 
-  padding-left: 15px; 
+  background-color: #AACCCC;
+  padding-right: 15px;
+  padding-left: 15px;
   margin-top: 0;
 
 }
@@ -669,7 +776,8 @@ font-family:'Libre Baskerville', serif;
 .services-end h4 {
   color: #404518;
   font-family: 'Libre Baskerville', serif;
-  font-weight: 600;
+  font-size: 2rem;
+  font-weight: 800;
   text-align: center;
   letter-spacing: 2px;
 
@@ -678,8 +786,8 @@ font-family:'Libre Baskerville', serif;
 .services-end p {
   color: #404518;
   font-family: 'Proza Libre', sans-serif;
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 400;
   padding-left: 15px;
   padding-right: 15px;
   word-spacing: 2px;
@@ -689,96 +797,343 @@ font-family:'Libre Baskerville', serif;
 /* ---------------------------------FAQ Section */
 
 .container-faq {
+  background-color: #AACCCC;
+  margin: 0;
+  padding: 0;
   width: 100%;
   height: 100%;
-  margin: 0px;
-  padding: 0px;
 
 }
 
-.container-faq-title h4 {
-  background-color: #3A2E27;
-  color: #FFDADA;
+.container-faq-title {
+  background-color: #D9CFDE;
+  padding-top: 15px;
+  padding-bottom: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+  min-height: 80vh;
+  width: 100%;
+
+}
+
+.container-faq {
+  padding-left: 15px;
+  padding-right: 15px;
+  min-height: 80vh;
+
+}
+
+.faq-container {
+  padding-top: 15px;
+  padding-bottom: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+
+}
+
+.faq-title {
+  background-color: #D9CFDE;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+
+}
+
+.faq-title h4 {
+  color: #3A2E27;
   text-align: center;
   font-family: 'Libre Baskerville', serif;
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 2px;
-  padding-top: 15px;
+  line-height: 2.2rem;
   padding-bottom: 0;
   margin-bottom: 0;
 
 }
 
-.container-faq-title h5 {
-  background-color: #3A2E27;
-  color: #FFDADA;
-  font-family: 'Proza Libre', sans-serif;
-  font-weight: 200;
+.faq-title h5 {
+  color: #3A2E27;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 300;
   text-align: center;
+  letter-spacing: 2px;
+  line-height: 2.5rem;
   padding-bottom: 0;
   margin-bottom: 0;
-  line-height: 2.5rem;
+
+}
+
+.faq-container ul {
+  background-color: #D9CFDE;
+  line-height: 2.75rem;
+  margin: 0px;
+  padding: 10px;
+
+}
+
+.faq-container li {
+  color: #3A2E27;
+  font-family:'Libre Baskerville', serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-style: bold;
+  font-weight: 500;
+  text-align: left;
+  list-style-type: none;
+  line-height: 2rem;
+  margin-left: 25px;
+
+}
+
+.faq-container ol {
+  color: #3A2E27;
+  font-family:'Libre Baskerville', serif;
+  font-size: 12px;
+  text-align: left;
+  list-style-type: none;
+  line-height: 1.5rem;
+  margin-left: 15px;
+  margin-bottom: 10px;
 
 }
 
 .img2 {
-  background-image: url("../images/belo.jpg");
+  background-image: url("../images/english.jpg");
   background-size: cover;
-  background-repeat: no-repeat center center;
-  height: 235px;
-  width: 235px;
-  padding: 0;
-  margin-right: 10px;
+  background-position: center;
+  height: 300px;
+  width: 300px;
   float: left;
-  border-bottom-right-radius: 50%;
+  margin-right: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 20%;
 
 }
 
 .img3 {
-  background-image: url("../images/khalisi.jpg");
-  background-color:#3A2E27;
+  background-image: url("../images/friends.jpg");
+  background-color:#D9CFDE;
   background-size: cover;
-  background-repeat: no-repeat center center;
-  height: 235px;
-  width: 235px;
-  margin-left: 5px;
-  margin-bottom: 0px;
-  padding-bottom: 0;
+  background-position: center;
+  height: 350px;
+  width: 300px;
   float: right;
-  border-top-left-radius: 50%;
+  margin-left: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 20%;
 
 }
 
-.container-faq ul {
-  background-color: #3A2E27;
-  margin: 0px;
-  padding: 0px;
+/* ---------------------------------Gallery Section 1 */
+
+.container-gallery {
+  background-color: #AACCCC;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 
 }
 
-.container-faq ul li {
-  color: #FFDADA ;
+.container-gallery {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  background-color: #AACCCC;
+  align-items: center;
+  padding-right: 15px;
+  padding-left: 15px;
+
+}
+
+.gal-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+
+}
+
+.gal-container {
+  background-color: #F9FFEB;
+  /* margin: 15px; */
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  width: 100%;
+
+}
+
+.gallery-inspire h4 {
+  color: #404518;
   font-family:'Libre Baskerville', serif;
-  font-size: 12px;
-  text-transform: uppercase;
-  text-align: left;
-  list-style-type: none;
-  line-height: 1.5rem;
-  margin-left: 15px;
+  font-style: italic;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin-right: 500px;
+  padding-bottom: 10px;
 
 }
 
-.container-faq ol {
-  color: #FFDADA;
+/* ---------------------------------Gallery Image Section 1 */
+
+.galleryone {
+  background-image: url("../images/j-c.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: 280px;
+  border-radius: 25%;
+  border: 5px solid #AACCCC;
+  margin-left: 10px;
+
+}
+
+.ovalone {
+  background-image: url("../images/ruby.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: 280px;
+  border-radius: 50%;
+  border: 5px solid #AACCCC;
+
+}
+
+.gallerytwo {
+  background-image: url("../images/pup.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: 280px;
+  border-radius: 25%;
+  border: 5px solid #AACCCC;
+
+}
+
+.ovaltwo {
+  background-image: url("../images/khalisi.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: 280px;
+  border-radius: 50%;
+  border: 5px solid #AACCCC;
+  margin-right: 10px;
+
+}
+
+/* ---------------------------------Gallery Image Section 2 */
+
+.ovalthree {
+  background-image: url("../images/cali.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: 280px;
+  border-radius: 50%;
+  border: 5px solid #AACCCC;
+  margin-left: 10px;
+
+}
+
+.gallerythree {
+  background-image: url("../images/oldeng.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: 280px;
+  border-radius: 25%;
+  border: 5px solid #AACCCC;
+
+}
+
+.ovalfour {
+  background-image: url("../images/class.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: 280px;
+  border-radius: 50%;
+  border: 5px solid #AACCCC;
+
+}
+
+.galleryfour {
+  background-image: url("../images/belo.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: 280px;
+  border-radius: 25%;
+  border: 5px solid #AACCCC;
+  margin-right: 10px;
+
+}
+
+/* ---------------------------------Gallery Image Section 3 */
+
+.galleryfive {
+  background-image: url("../images/stray.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: 280px;
+  border-radius: 25%;
+  border: 5px solid #AACCCC;
+  margin-left: 10px;
+
+}
+
+.ovalfive {
+  background-image: url("../images/khali.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: 280px;
+  border-radius: 50%;
+  border: 5px solid #AACCCC;
+
+}
+
+.gallerysix {
+  background-image: url("../images/office.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: 280px;
+  border-radius: 25%;
+  border: 5px solid #AACCCC;
+
+}
+
+.ovalsix {
+  background-image: url("../images/n-z.jpg");
+  background-size: cover;
+  height: 350px;
+  width: 280px;
+  border-radius: 50%;
+  border: 5px solid #AACCCC;
+  margin-right: 10px;
+
+}
+
+.gallery-inspire-end h4{
+  color: #404518;
   font-family:'Libre Baskerville', serif;
-  font-size: 12px;
-  text-align: left;
-  list-style-type: none;
-  line-height: 1.5rem;
-  margin-left: 15px;
+  font-style: italic;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin-left: 350px;
+  padding-bottom: 10px;
+  padding-right: 15px;
 
 }
+
 
 
 
@@ -878,7 +1233,4 @@ font-family:'Libre Baskerville', serif;
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 /* @media only screen and (min-width: 1200px) {...} */
-
-
-
 
