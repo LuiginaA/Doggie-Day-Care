@@ -2,13 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
 
-
-font-family: 'Libre Baskerville', serif;
-
-font-family: 'Proza Libre', sans-serif;
-
-
-/* ---------------------------------Special paddings/margins/text
+/* ---------------------------------Special paddings/margins */
 
 h1,
 h2,
@@ -19,194 +13,7 @@ h6 {
 margin: 0;
 padding: 0;
 
-
-
-.h4 {
-  color: #293A03;
-  font-family: 'Libre Baskerville', serif;
-  font-size: 22px;
-  font-weight: 600;
-  text-align: center;
-  padding-top: 10px;
-
 }
-
-h3 {
-  color: #293A03;
-  font-family:'Libre Baskerville', serif;
-  font-style: italic;
-  letter-spacing: 2.5px;
-  font-size: 38px;
-  font-weight: 700;
-  text-align: center;
-  padding-bottom: 10px;
-
-}
-
-h5 {
-  color: #293A03;
-  font-family: 'Libre Baskerville', serif;
-  font-size: 14px;
-  font-weight: 600;
-  text-align: center;
-  padding-top: 10px;
-
-
-.form-heading h6 {
-  color: #293A03;
-  font-family:'Libre Baskerville', serif;
-  font-size: 12px;
-  font-weight: 400;
-  font-style: italic;
-  margin-bottom: 15px;
-
-}
-.info p {
-  color: #293A03;
-  font-family: 'Libre Baskerville', serif;
-  font-size: 14px;
-  font-weight: 500;
-  padding-left: 10px;
-  padding-right: 10px;
-
-}
-
-
-
-/* ---------------------------------Contact Form */
-
-.container-form {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-
-} 
-
-.container-form {
-  background-color: #AACCCC;
-  display: flex; 
-  flex-wrap: nowrap;
- 
-} 
-
-.form-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #EDFDFC;
-  padding-top: 5px;
-  width: 100%;
-
-} 
-
-.form-heading h4 {
-  color: #293A03;
-  font-family:'Libre Baskerville', serif;
-  font-weight: 600;
-  text-align: center;
-  letter-spacing: 1px;
-  margin-left: 15px;
-  margin-top: 10px;
-  margin-bottom: 15px;
- 
-}   
-
-.centre-form {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin: 15px;
-  width: 100%; 
-  
-}
-
-.form-heading h6 {
-  color: #293A03;
-  font-family:'Libre Baskerville', serif;
-  font-size: 12px;
-  font-weight: 400;
-  font-style: italic;
-  margin-bottom: 15px;
-
-}
-
-
-
-.control-form {
-  margin-left: 35px; 
-  width: 100%; 
-
-}
-
-.submit-form {
-  color: #293A03; 
-  font-size: 18px;
-  font-family:'Libre Baskerville', serif;
-  height: 100%;
-  width: 95%;
-  margin-left: 2%;
-  margin-top: 50px;
-
-} 
-
-/* --------------------------------Submit-button */
-
-button[type="submit"] {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  background-color: #AACCCC;
-  color: #293A03;
-  font-family:'Libre Baskerville', serif;
-  font-size: 14px;
-  font-weight: 400;
-
-}
-
-.contact-img-container {
-  display: flex;
-  flex-wrap: nowrap;
-
-}
-
-.end-image {
-  background-image: url("../images/peeping.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 325px;
-  width: 320px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 12px;
-  padding-top: 8px;
-  padding-left: 5px;
-  border-radius: 30%;
-
-}
-
-/* --------------------------------Submit-Form Media Queries */
-
-@media(min-width: 992px) {
-  .centre-form {
-      padding-top: 30px;
-      min-height: 240px;
-      margin: 0 auto;
-      max-width: 70%;
-  }
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ---------------------------------TopNav */
 
@@ -220,6 +27,7 @@ color: #293A03;
 font-family:'Libre Baskerville', serif;
 font-weight: 600;
 letter-spacing: 2px;
+
 }
 
 .phone p {
@@ -359,7 +167,6 @@ letter-spacing: 2px;
   font-size: 12px;
   font-weight: 600;
   font-family: 'Proza Libre', sans-serif;
-
   
 }
 
@@ -385,7 +192,8 @@ letter-spacing: 2px;
 .social-icons ul li {
   display: inline;
   color: #293A03;
-margin-left: 8px;
+  margin-left: 8px;
+
 }
 
 .social-icons ul li i {
@@ -449,11 +257,12 @@ margin-left: 8px;
 }
 
 .container-info-one {
-  background-color: #F9FFEB;
+  background-color: #EFFBEF;
   margin: 15px;
   padding-top: 20px;
   padding-bottom: 10px;
   width: 100%;
+  line-height: 2rem; 
 
 }
 
@@ -465,12 +274,12 @@ margin-left: 8px;
   font-size: 38px;
   font-weight: 700;
   text-align: center;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 
 }
 
 .info-one {
-  background-color: #F9FFEB;
+  background-color: #EFFBEF;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
@@ -482,7 +291,7 @@ margin-left: 8px;
 }
 
 .info-two {
-  background-color: #F9FFEB;
+  background-color: #EFFBEF;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
@@ -494,7 +303,7 @@ margin-left: 8px;
 }
 
 .info-three {
-  background-color: #F9FFEB;
+  background-color: #EFFBEF;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
@@ -577,8 +386,9 @@ margin-left: 8px;
   padding-top: 20px;
   padding-bottom: 10px;
   min-height: 80vh;
-  background-color:#FCEEEE;
-
+  background-color: #EFFBEF;
+  line-height: 2rem;
+  
 }
 
 .team {
@@ -609,6 +419,7 @@ margin-left: 8px;
   font-weight: 600;
   text-align: center;
   padding-top: 10px;
+  margin-bottom: 10px;
 
 }
 
@@ -619,9 +430,9 @@ margin-left: 8px;
   font-weight: 600;
   text-align: center;
   padding-top: 10px;
+  margin-bottom: 10px;
 
 }
-
 
 .team p,
 .about-us p,
@@ -634,7 +445,6 @@ margin-left: 8px;
   padding-right: 10px;
 
 }
-
 
 .team-img {
   background-image: url("../images/staff.jpg");
@@ -698,13 +508,13 @@ margin-left: 8px;
 
 }
 
-
 .container-services-main {
   display: flex;
   flex-wrap: wrap;
-  background-color: #D9E0FC;
+  background-color: #EFFBEF;
   align-items: center;
   justify-content: space-around;
+  line-height: 2rem;
 
 }
 
@@ -737,6 +547,7 @@ margin-left: 8px;
   font-weight: 600;
   text-align: center;
   padding-top: 10px;
+  margin-bottom: 10px;
 
 }
 
@@ -806,9 +617,9 @@ margin-left: 8px;
 
 .services-container-two {
   display: flex;
-  background-color: #D9E0FC;
+  background-color: #EFFBEF;
   align-items: center;
-
+  line-height: 2rem;
 }
 
 .container-services-two {
@@ -836,7 +647,7 @@ margin-left: 8px;
   font-weight: 600;
   text-align: center;
   padding-top: 10px;
-
+  margin-bottom: 10px;
 }
 
 .services-two p,
@@ -860,12 +671,12 @@ margin-left: 8px;
 }
 
 .container-services-end {
-  background-color:#D9E0FC;
+  background-color: #EFFBEF;
   padding-top: 15px;
   padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
-
+  line-height: 2rem;
 }
 
 .content-services-end {
@@ -884,7 +695,7 @@ margin-left: 8px;
   font-size: 34px;
   font-weight: 700;
   text-align: center;
-  padding-bottom: 10px;
+  padding-bottom: 12px;
 
 }
 
@@ -895,7 +706,7 @@ margin-left: 8px;
   font-weight: 600;
   text-align: center;
   letter-spacing: 2px;
-  margin-bottom: 2px; 
+  margin-bottom: 5px; 
 
 }
 
@@ -923,7 +734,7 @@ margin-left: 8px;
 }
 
 .container-faq-title {
-  background-color: #FDF3EC;
+  background-color: #EFFBEF;
   padding-top: 15px;
   padding-bottom: 0px;
   padding-left: 15px;
@@ -950,7 +761,7 @@ margin-left: 8px;
 }
 
 .faq-title {
-  background-color: #FDF3EC;
+  background-color: #EFFBEF;
   padding-top: 10px;
   padding-bottom: 0px;
   padding-left: 15px;
@@ -984,7 +795,7 @@ margin-left: 8px;
 }
 
 .faq-container ul {
-  background-color: #FDF3EC;
+  background-color: #EFFBEF;
   line-height: 2.75rem;
   margin: 0px;
   padding: 10px;
@@ -1031,7 +842,6 @@ margin-left: 8px;
 
 .img3 {
   background-image: url("../images/friends.jpg");
-  background-color:#D9CFDE;
   background-size: cover;
   background-position: center;
   height: 350px;
@@ -1067,15 +877,14 @@ margin-left: 8px;
 }
 
 .gal-container {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 
 }
 
 .gal-container {
-  background-color: #EDFDFC;
-  /* margin: 15px; */
+  background-color: #EFFBEF;
   padding-top: 20px;
   padding-bottom: 10px;
   padding-left: 10px;
@@ -1090,9 +899,9 @@ justify-content: space-evenly;
   letter-spacing: 2.5px;
   font-size: 38px;
   font-weight: 700;
-  margin-right: 500px;
   padding-bottom: 10px;
-
+  text-align: center;
+  margin-top: 10px;
 }
 
 /* ---------------------------------Gallery Image Section 1 */
@@ -1238,165 +1047,153 @@ justify-content: space-evenly;
 
 }
 
-.gallery-inspire-end h3{
+.gallery-inspire-end h3 {
   color: #293A03;
   font-family:'Libre Baskerville', serif;
   font-style: italic;
   letter-spacing: 2.5px;
   font-size: 38px;
   font-weight: 700;
-  margin-left: 350px;
   padding-bottom: 10px;
   padding-right: 15px;
-
-}
-
-
-
-
-
-/* ---------------------------------  Media Queries*/
-
-/*
-/* ---------- Tablet */
-/* @media screen and (max-width: 768px) {
-  .footer-main {
-    display: 100%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .footer-main,
-  .footer-author{
- width: 200%;
-  }
-
-}    */
-
-/* ---------- Mobile */
-
-/*
-@media screen and (max-width: 480px) {
-  .footer-main,
-  .services-container-two
-   {
-    display: 100%;
-  }
-}
-
-
-@media screen and (max-width: 480px) {
-  .footer-main-logo,
-  .services-container-two {
-    display: 100%;
-  }
-}  */
-
-/*
-@media screen and (max-width: 480px) {
-  .footer-author {
- width: 100%;
-
-  }
-
-}    */
-/*
-@media screen and (max-width: 480px) {
-  .footer-main-nav p {
- width: 100%;
-
-  }
-
-}
-@media screen and (max-width: 480px) {
-  .footer-main-nav ul li a {
- width: 100%;
-
-  }
-
-}    */
-
-/*
-@media screen and (max-width: 1393px) {
-  .footer-main-logo {
-      width: 65%;
-      height: 1200px;
-      margin: 0 auto;
-
-  } */
-
-
-/* Extra small devices (phones, 600px and down) */
-/* @media only screen and (max-width: 600px) {
-  footer {
-
-    background-color: blue;
-  }
-  } */
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/* @media only screen and (min-width: 600px) {
-  footer-main {
-    background-color: yellow;
-  }
-
-} */
-
-/* Medium devices (landscape tablets, 768px and up) */
-/* @media only screen and (min-width: 768px) {...} */
-
-/* Large devices (laptops/desktops, 992px and up) */
-/* @media only screen and (min-width: 992px) {...} */
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-/* @media only screen and (min-width: 1200px) {...} */
-
-
-
-
-/* 
-
-.contact-form-container {
-  display: flex;
-  flex-wrap: nowrap;
-  background-size: cover;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  margin-top: 15px;
-
-}
-
-.contact-form-container {
+  margin-left: 10px;
+  margin-bottom: 60px;
   text-align: center;
-  margin-top: 15px;
-  margin-bottom: 5px;
-  
-}  
 
-.centre-form {
-margin: 0 auto; 
-  width: 70%;  
-  display: flex; 
-  flex-wrap: nowrap;
-  align-items: center;
-  align-content: center;
+}
+
+/* ---------------------------------Contact Form */
+
+.container-form {
+  margin: 0;
+  padding: 0;
+  width: 100%;
 
 } 
-.submit-form {
-  margin-left: 15%;
-  margin-right: 15%;
-  margin-top: 5px;
-  margin-bottom: 5px;
 
+.container-form {
+  background-color: #AACCCC;
+  display: flex; 
+  flex-wrap: nowrap;
+ 
+} 
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  background-color: #EFFBEF;
+  padding-top: 5px;
+  width: 100%;
+
+} 
+
+.form-heading h3 {
+  color: #293A03;
+  font-family:'Libre Baskerville', serif;
+  font-style: italic;
+  letter-spacing: 2.5px;
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-top: 10px;
+
+}   
+
+.centre-form {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 15px;
+  width: 100%; 
+  
+}
+
+.form-heading h5 {
+  color: #293A03;
+  font-family:'Libre Baskerville', serif;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  font-style: italic;
+  margin-bottom: 15px;
+  margin-left: 8px;
+  margin-top: 8px;
 
 }
 
-.submit-form,
-.form-control {
- 
-  margin-bottom: 15px;
+.control-form {
+  color: #293A03;
+  margin-left: 35px; 
+  width: 100%; 
 
-} */
+}
 
+.submit-form {
+  color: #293A03; 
+  font-size: 18px;
+  font-family:'Libre Baskerville', serif;
+  height: 100%;
+  width: 85%;
+  margin-left: 5%; 
+  margin-top: 50px;
+  margin-bottom: 50px;
 
+} 
+
+#fullname,
+#emailaddress, 
+#projectsummary {
+  font-size: 18px;
+  margin-bottom: 8px;
+  border: 2px solid #293A03;
+}
+
+/* --------------------------------Submit-button */
+
+button[type="submit"] {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #AACCCC;
+  color: #293A03;
+  font-family:'Libre Baskerville', serif;
+  font-size: 14px;
+  font-weight: 400;
+
+}
+
+.contact-img-container {
+  display: flex;
+  flex-wrap: nowrap;
+
+}
+
+.end-image {
+  background-image: url("../images/peeping.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 325px;
+  width: 320px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 12px;
+  padding-top: 8px;
+  padding-left: 5px;
+  border-radius: 30%;
+
+}
+
+/* --------------------------------Submit-Form Media Queries */
+
+@media(min-width: 992px) {
+  .centre-form {
+      padding-top: 30px;
+      min-height: 240px;
+      margin: 0 auto;
+      max-width: 70%;
+  }
+
+}
