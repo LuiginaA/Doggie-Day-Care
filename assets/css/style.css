@@ -20,6 +20,59 @@ margin: 0;
 padding: 0;
 
 
+
+.h4 {
+  color: #293A03;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 10px;
+
+}
+
+h3 {
+  color: #293A03;
+  font-family:'Libre Baskerville', serif;
+  font-style: italic;
+  letter-spacing: 2.5px;
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 10px;
+
+}
+
+h5 {
+  color: #293A03;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 10px;
+
+
+.form-heading h6 {
+  color: #293A03;
+  font-family:'Libre Baskerville', serif;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 15px;
+
+}
+.info p {
+  color: #293A03;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+
+
 /* ---------------------------------Contact Form */
 
 .container-form {
@@ -40,14 +93,14 @@ padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: chartreuse;
+  background-color: #EDFDFC;
   padding-top: 5px;
   width: 100%;
 
 } 
 
 .form-heading h4 {
-  color: red;
+  color: #293A03;
   font-family:'Libre Baskerville', serif;
   font-weight: 600;
   text-align: center;
@@ -66,6 +119,18 @@ padding: 0;
   
 }
 
+.form-heading h6 {
+  color: #293A03;
+  font-family:'Libre Baskerville', serif;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 15px;
+
+}
+
+
+
 .control-form {
   margin-left: 35px; 
   width: 100%; 
@@ -73,7 +138,7 @@ padding: 0;
 }
 
 .submit-form {
-  color: plum; 
+  color: #293A03; 
   font-size: 18px;
   font-family:'Libre Baskerville', serif;
   height: 100%;
@@ -88,8 +153,8 @@ padding: 0;
 button[type="submit"] {
   margin-top: 5px;
   margin-bottom: 5px;
-  background-color: #E0E4EF;
-  color: #404518;
+  background-color: #AACCCC;
+  color: #293A03;
   font-family:'Libre Baskerville', serif;
   font-size: 14px;
   font-weight: 400;
@@ -151,17 +216,20 @@ button[type="submit"] {
 }
 
 .title h5 {
-color: #404518;
+color: #293A03;
 font-family:'Libre Baskerville', serif;
-
+font-weight: 600;
+letter-spacing: 2px;
 }
 
 .phone p {
-  color: #404518;
+  color: #293A03;
   font-size: 14px;
+  font-weight: 600;
   font-family:'Libre Baskerville', serif;
   text-align: center;
   padding-top: 10px;
+  letter-spacing: 2px;
 
 }
 
@@ -229,7 +297,6 @@ font-family:'Libre Baskerville', serif;
 
 }
 
-
 .navbar-toggle-icon span {
     font-size: 18px;
     font-family: 'Libre Baskerville', serif;
@@ -243,11 +310,10 @@ font-family:'Libre Baskerville', serif;
 }
 
 .navbar a:hover {
-  background-color: #b4aaa1;
+  background-color: #293A03;
   color: azure;
 
 }
-
 
 /* --------------------------------- Footer */
 
@@ -258,50 +324,57 @@ font-family:'Libre Baskerville', serif;
   width: 100%;
   max-height: 80vh;
   justify-content: space-between;
-  padding: 10px;
+ 
+}
+
+.footer-main {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 2px;
   margin-top: 0;
   margin-bottom: 0;
   text-decoration: none;
   list-style-type: none;
-
+  
 }
 
 .footer-item a{
-  color: #404518;
+  color: #293A03;
   height: 100%;
   line-height: 1.5px;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   font-family: 'Libre Baskerville', serif;
 
 }
 
 .footer-main ol {
-  color: #404518;
+  color: #293A03;
   text-decoration: none;
   padding: 0;
-  margin: 0;
+  margin: 0; 
   text-align: left;
-  font-size: 10px;
+  font-size: 12px;
+  font-weight: 600;
   font-family: 'Proza Libre', sans-serif;
 
+  
 }
-
 
 /* --------------------------------- Footer Author & Social Media*/
 
 .footer-author {
   background-color: #AACCCC;
-  color: #404518;
+  color: #293A03;
   padding-top: 0px;
   width: 100%;
   max-height: fit-content;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-evenly;
-  margin-bottom: 70px;
-
+  padding-bottom: 50px;
 }
 
 .social-icons i:hover {
@@ -311,40 +384,49 @@ font-family:'Libre Baskerville', serif;
 
 .social-icons ul li {
   display: inline;
-  color: #404518;
-
+  color: #293A03;
+margin-left: 8px;
 }
 
 .social-icons ul li i {
   display: flex;
-  font-size: 14px;
-  color:#404518;
+  font-size: 18px;
+  color:#293A03;
+  font-weight: 600;
+  letter-spacing: 10px;
   text-decoration: none;
   margin-bottom: 0px;
   margin-top: 0;
-  padding-bottom: 0px;
+  padding-bottom: 5px;
 
 }
 
 .social-icons ul li a {
   display: inline-block;
-  color: #404518;
+  color: #293A03;
   text-decoration: none;
-
+ 
 }
 
-.copyright p {
-  font-size: 12px;
+.copyright i, 
+.copyright p{
+  display: inline-block;
+  color: #293A03;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: bold;
   font-family: 'Libre Baskerville', serif;
-  margin-bottom: 0;
+  margin-bottom: 5px;
 
 }
 
 .made-by {
-  text-align: ;
-  font-size: 12px;
+  color: #293A03;
+  font-size: 14px;
+  font-weight: 600;
   font-family: 'Libre Baskerville', serif;
-  margin-bottom: 0;
+  margin-bottom: 5px;
 
 }
 
@@ -372,15 +454,18 @@ font-family:'Libre Baskerville', serif;
   padding-top: 20px;
   padding-bottom: 10px;
   width: 100%;
+
 }
 
-.info h4 {
-  color: #183E0C;
-  font-family: 'Libre Baskerville', serif;
-  font-size: 12;
-  letter-spacing: 2px;
-  font-weight: 600;
+.info h3 {
+  color: #293A03;
+  font-family:'Libre Baskerville', serif;
+  font-style: italic;
+  letter-spacing: 2.5px;
+  font-size: 38px;
+  font-weight: 700;
   text-align: center;
+  padding-bottom: 10px;
 
 }
 
@@ -421,9 +506,9 @@ font-family:'Libre Baskerville', serif;
 }
 
 .info p {
-  color: #183E0C;
+  color: #293A03;
   font-family: 'Proza Libre', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
   padding-left: 10px;
   padding-right: 10px;
@@ -492,7 +577,7 @@ font-family:'Libre Baskerville', serif;
   padding-top: 20px;
   padding-bottom: 10px;
   min-height: 80vh;
-  background-color:#E2D9E2;
+  background-color:#FCEEEE;
 
 }
 
@@ -504,47 +589,62 @@ font-family:'Libre Baskerville', serif;
 
 }
 
-.intro h4 {
-  color: #733236;
-  font-family: 'Libre Baskerville', serif;
-  font-size: 14;
-  font-weight: 600;
+.intro h3 {
+  color: #293A03;
+  font-family:'Libre Baskerville', serif;
+  font-style: italic;
+  letter-spacing: 2.5px;
+  font-size: 38px;
+  font-weight: 700;
   text-align: center;
-  letter-spacing: 2px;
+  padding-bottom: 10px;
 
 }
 
-.team h5,
-.about-us h5,
-.premises h5 {
-  color: #733236;
+.team h4,
+.premises h4 {
+  color: #293A03;
   font-family: 'Libre Baskerville', serif;
-  font-size: 13;
-  font-weight: 500;
+  font-size: 22px;
+  font-weight: 600;
   text-align: center;
   padding-top: 10px;
 
 }
 
+.about-us h4 {
+  color: #293A03;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 10px;
+
+}
+
+
+.team p,
 .about-us p,
 .premises p {
-  color: #733236;
-  font-family: 'Proza Libre', sans-serif;
+  color: #293A03;
+  font-family: 'Libre Baskerville', serif;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
   padding-left: 10px;
   padding-right: 10px;
 
 }
+
 
 .team-img {
   background-image: url("../images/staff.jpg");
   background-size: cover;
   height: 375px;
   width: 350px;
-  margin-top: 45px;
+  margin-top: 15px;
   margin-bottom: 10px;
   border-radius: 20%;
+  margin-bottom: 30px;
 
 }
 
@@ -552,6 +652,7 @@ font-family:'Libre Baskerville', serif;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
+  align-items: center;
 
 }
 
@@ -601,7 +702,7 @@ font-family:'Libre Baskerville', serif;
 .container-services-main {
   display: flex;
   flex-wrap: wrap;
-  background-color: #DAD7CD;
+  background-color: #D9E0FC;
   align-items: center;
   justify-content: space-around;
 
@@ -617,20 +718,22 @@ font-family:'Libre Baskerville', serif;
 
 }
 
-.services-main h4 {
-  color: #404518;
-  font-family: 'Libre Baskerville', serif;
-  font-size: 2rem;
-  font-weight: 800;
-  align-items: center;
-  letter-spacing: 2px;
+.services-main h3 {
+  color: #293A03;
+  font-family:'Libre Baskerville', serif;
+  font-style: italic;
+  letter-spacing: 2.5px;
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 10px;
 
 }
 
-.services h5 {
-  color: #404518;
+.services h4 {
+  color: #293A03;
   font-family: 'Libre Baskerville', serif;
-  font-size: 1.5rem;
+  font-size: 22px;
   font-weight: 600;
   text-align: center;
   padding-top: 10px;
@@ -639,8 +742,8 @@ font-family:'Libre Baskerville', serif;
 
 .services p,
 .services ul li {
-  color: #404518;
-  font-family: 'Proza Libre', sans-serif;
+  color: #293A03;
+  font-family: 'Libre Baskerville', serif;
   font-size: 14px;
   font-weight: 500;
   padding-left: 10px;
@@ -703,7 +806,7 @@ font-family:'Libre Baskerville', serif;
 
 .services-container-two {
   display: flex;
-  background-color: #DAD7CD;
+  background-color: #D9E0FC;
   align-items: center;
 
 }
@@ -726,10 +829,10 @@ font-family:'Libre Baskerville', serif;
 
 }
 
-.services-two h5 {
-  color: #404518;
+.services-two h4 {
+  color: #293A03;
   font-family: 'Libre Baskerville', serif;
-  font-size: 1.5rem;
+  font-size: 22px;
   font-weight: 600;
   text-align: center;
   padding-top: 10px;
@@ -738,9 +841,9 @@ font-family:'Libre Baskerville', serif;
 
 .services-two p,
 .services-two ul li {
-  color: #404518;
-  font-family: 'Proza Libre', sans-serif;
-  font-size: 12px;
+  color: #293A03;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 14px;
   font-weight: 500;
   padding-left: 5px;
   padding-right: 5px;
@@ -757,7 +860,7 @@ font-family:'Libre Baskerville', serif;
 }
 
 .container-services-end {
-  background-color:#DAD7CD;
+  background-color:#D9E0FC;
   padding-top: 15px;
   padding-bottom: 10px;
   padding-left: 10px;
@@ -773,24 +876,38 @@ font-family:'Libre Baskerville', serif;
 
 }
 
+.services-end h3 {
+  color: #293A03;
+  font-family:'Libre Baskerville', serif;
+  font-style: italic;
+  letter-spacing: 2.5px;
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 10px;
+
+}
+
 .services-end h4 {
-  color: #404518;
+  color: #293A03;
   font-family: 'Libre Baskerville', serif;
-  font-size: 2rem;
-  font-weight: 800;
+  font-size: 22px;
+  font-weight: 600;
   text-align: center;
   letter-spacing: 2px;
+  margin-bottom: 2px; 
 
 }
 
 .services-end p {
-  color: #404518;
-  font-family: 'Proza Libre', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
+  color: #293A03;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 14px;
+  font-weight: 500;
   padding-left: 15px;
   padding-right: 15px;
-  word-spacing: 2px;
+  margin-top: 15px;
+  word-spacing: 2px; 
 
 }
 
@@ -806,7 +923,7 @@ font-family:'Libre Baskerville', serif;
 }
 
 .container-faq-title {
-  background-color: #D9CFDE;
+  background-color: #FDF3EC;
   padding-top: 15px;
   padding-bottom: 0px;
   padding-left: 15px;
@@ -824,7 +941,7 @@ font-family:'Libre Baskerville', serif;
 }
 
 .faq-container {
-  padding-top: 15px;
+  padding-top: 5px;
   padding-bottom: 0px;
   padding-left: 15px;
   padding-right: 15px;
@@ -833,7 +950,7 @@ font-family:'Libre Baskerville', serif;
 }
 
 .faq-title {
-  background-color: #D9CFDE;
+  background-color: #FDF3EC;
   padding-top: 10px;
   padding-bottom: 0px;
   padding-left: 15px;
@@ -842,33 +959,32 @@ font-family:'Libre Baskerville', serif;
 
 }
 
-.faq-title h4 {
-  color: #3A2E27;
-  text-align: center;
+.faq-title h3 {
+  color: #293A03;
   font-family: 'Libre Baskerville', serif;
-  text-transform: uppercase;
-  font-weight: 400;
-  letter-spacing: 2px;
-  line-height: 2.2rem;
-  padding-bottom: 0;
-  margin-bottom: 0;
-
-}
-
-.faq-title h5 {
-  color: #3A2E27;
-  font-family: 'Libre Baskerville', serif;
-  font-weight: 300;
+  text-transform: Italic;
+  font-size: 38px;
+  font-weight: 700;
   text-align: center;
-  letter-spacing: 2px;
+  letter-spacing: 2.5px;
   line-height: 2.5rem;
   padding-bottom: 0;
   margin-bottom: 0;
 
 }
 
+.faq-title h4 {
+  color: #293A03;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 20px; 
+
+}
+
 .faq-container ul {
-  background-color: #D9CFDE;
+  background-color: #FDF3EC;
   line-height: 2.75rem;
   margin: 0px;
   padding: 10px;
@@ -876,23 +992,21 @@ font-family:'Libre Baskerville', serif;
 }
 
 .faq-container li {
-  color: #3A2E27;
+  color: #293A03;
   font-family:'Libre Baskerville', serif;
-  font-size: 13px;
-  text-transform: uppercase;
-  font-style: bold;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 600;
   text-align: left;
   list-style-type: none;
-  line-height: 2rem;
   margin-left: 25px;
 
 }
 
 .faq-container ol {
-  color: #3A2E27;
+  color: #293A03;
   font-family:'Libre Baskerville', serif;
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: 500;
   text-align: left;
   list-style-type: none;
   line-height: 1.5rem;
@@ -925,6 +1039,7 @@ font-family:'Libre Baskerville', serif;
   float: right;
   margin-left: 10px;
   padding-right: 5px;
+  margin-bottom: 3px;
   padding-left: 5px;
   border-radius: 20%;
 
@@ -959,7 +1074,7 @@ justify-content: space-evenly;
 }
 
 .gal-container {
-  background-color: #F9FFEB;
+  background-color: #EDFDFC;
   /* margin: 15px; */
   padding-top: 20px;
   padding-bottom: 10px;
@@ -968,12 +1083,13 @@ justify-content: space-evenly;
 
 }
 
-.gallery-inspire h4 {
-  color: #404518;
+.gallery-inspire h3 {
+  color: #293A03;
   font-family:'Libre Baskerville', serif;
   font-style: italic;
-  letter-spacing: 2px;
-  font-weight: 600;
+  letter-spacing: 2.5px;
+  font-size: 38px;
+  font-weight: 700;
   margin-right: 500px;
   padding-bottom: 10px;
 
@@ -1122,12 +1238,13 @@ justify-content: space-evenly;
 
 }
 
-.gallery-inspire-end h4{
-  color: #404518;
+.gallery-inspire-end h3{
+  color: #293A03;
   font-family:'Libre Baskerville', serif;
   font-style: italic;
-  letter-spacing: 2px;
-  font-weight: 600;
+  letter-spacing: 2.5px;
+  font-size: 38px;
+  font-weight: 700;
   margin-left: 350px;
   padding-bottom: 10px;
   padding-right: 15px;
@@ -1233,4 +1350,53 @@ justify-content: space-evenly;
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 /* @media only screen and (min-width: 1200px) {...} */
+
+
+
+
+/* 
+
+.contact-form-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-size: cover;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+
+}
+
+.contact-form-container {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  
+}  
+
+.centre-form {
+margin: 0 auto; 
+  width: 70%;  
+  display: flex; 
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+
+} 
+.submit-form {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+
+}
+
+.submit-form,
+.form-control {
+ 
+  margin-bottom: 15px;
+
+} */
+
 
