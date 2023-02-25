@@ -15,7 +15,7 @@ padding: 0;
 
 }
 
-/* ---------------------------------TopNav */
+/* ---------------------------------Fixed Nav */
 
 .fixed-top {
   background-color:#AACCCC; 
@@ -112,7 +112,7 @@ padding: 0;
 display: contents;
 align-content: center;
 color: #EFFBEF;
-background-color: #293A03;
+/* background-color: #293A03; */
 font-size: 40px; 
 padding-top: 28px;
 border-style: solid;
